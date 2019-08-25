@@ -1,0 +1,144 @@
+    <!-- Header -->
+    <header class="masthead">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Maquiprint!</div>
+                <div class="intro-heading text-uppercase">Tu mejor opción para hacer volar tus ideas</div>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Ver catálogo de
+                    bolsas</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="nosotros">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Nosotros</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div>
+                <p>
+                    {{ infoPaginaService.infoPagina.nosotros }}
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="servicios">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Misión</h2>
+                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                        <p>
+                            {{ infoPaginaService.infoPagina.nosotros }}
+                        </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="nosotros">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading text-uppercase">Visión</h2>
+                            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        </div>
+                    </div>
+                    <div>
+                        <p>
+                            {{ infoPaginaService.infoPagina.nosotros }}
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+    <!-- Services -->
+    <section class="page-section" id="servicios">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Servicios</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-shopping-bag fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Producción de Bolsas</h4>
+                    <p class="text-muted">{{ infoPaginaService.infoPagina.servicioBolsas }}</p>
+                </div>
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-tag fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Producción Etiquetas</h4>
+                    <p class="text-muted">{{ infoPaginaService.infoPagina.servicioEtiquetas }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Contáctanos</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form data-toggle="validator" id="contactForm" name="sentMessage" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" id="name" type="text" placeholder="Nombre completo"
+                                        required="required" data-validation-required-message="Please enter your name."
+                                        aria-invalid="false">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" id="email" type="email" placeholder="Correo Electrónico"
+                                        required="required"
+                                        data-validation-required-message="Please enter your email address."
+                                        aria-invalid="false">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" id="phone" type="tel" placeholder="Teléfono"
+                                        required="required"
+                                        data-validation-required-message="Please enter your phone number."
+                                        aria-invalid="false">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" id="message" placeholder="Mensaje"
+                                        required="required" data-validation-required-message="Please enter a message."
+                                        aria-invalid="false"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase"
+                                   href="#!" type="submit">Enviar Mensaje</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,161 @@
+#footer {
+    color: aliceblue;
+}
+
+#header img {
+    width: 190px;
+}
+
+#servicios{
+    background-color: #f8f9fa!important;
+}
+
+#catalogoContainer{
+    padding-top: 130px;
+    padding-bottom: 70px;  
+}
+
+.page-footer{
+    background-color: #39424E;
+    color: aliceblue; 
+}
+
+.href-color{
+    color: aliceblue;
+}
+
+.onHover:hover {
+    color: #fed136;
+    text-decoration: none;
+}
+
+header.masthead {
+    text-align: center;
+    color: white;
+    background-image: url("../img/Encabezado.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  header.masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  header.masthead .intro-text .intro-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  @media (min-width: 768px) {
+    header.masthead .intro-text {
+      padding-top: 300px;
+      padding-bottom: 200px;
+    }
+    header.masthead .intro-text .intro-lead-in {
+      font-size: 40px;
+      font-style: italic;
+      line-height: 40px;
+      margin-bottom: 25px;
+      font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+    header.masthead .intro-text .intro-heading {
+      font-size: 75px;
+      font-weight: 700;
+      line-height: 75px;
+      margin-bottom: 50px;
+      font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+  }
+
+.page-section {
+    padding: 100px 0;
+  }
+  
+  .page-section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .page-section h3.section-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  @media (min-width: 768px) {
+    section {
+      padding: 150px 0;
+    }
+  }
+
+  .navbar-custom { 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .navbar-custom .navbar-brand {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+  }
+  
+  .navbar-custom .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
+
+  section#contacto {
+    background-color: #212529;
+    background-image: url("../img/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  section#contacto .section-heading {
+    color: #fff;
+  }
+  
+  section#contacto .form-group {
+    margin-bottom: 25px;
+  }
+  
+  section#contacto .form-group input,
+  section#contacto .form-group textarea {
+    padding: 20px;
+  }
+  
+  section#contacto .form-group input.form-control {
+    height: auto;
+  }
+  
+  section#contacto .form-group textarea.form-control {
+    height: 248px;
+  }
+  
+  section#contacto   .form-control:focus {
+    border-color: #fed136;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
