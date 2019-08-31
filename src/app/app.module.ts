@@ -8,6 +8,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { IndexComponent } from './pages/index/index.component';
 import { ItemsComponent } from './pages/items/items.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { ProductoComponent } from './pages/producto/producto.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     FooterComponent,
     IndexComponent,
-    ItemsComponent
+    ItemsComponent,
+    ProductoComponent
   ],
   imports: [
     BrowserModule,

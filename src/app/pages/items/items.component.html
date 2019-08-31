@@ -1,25 +1,24 @@
-    <!-- Page Content -->
-    <div id="catalogoContainer" class="container">
+<div id="catalogoContainer" class="container">
         <h2>Catálogo productos</h2>
         <hr />
         <div class="row">
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                    <div class="card-body">
-                        <h4 class="card-title">
-                            <a href="#">Item One</a>
-                        </h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-                            numquam aspernatur!</p>
-                    </div>
-                    <div class="card-footer">
-                       
+            <ng-container *ngFor="let item of itemsService.Items">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <a routerLink="/producto/{{ item.cod }}"><img class="card-img-top" src="../../../assets/productos/{{ item.url }}.png" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a routerLink="/producto/{{ item.cod }}">{{ item.nombre }}</a>
+                            </h4>
+                            <p class="card-text">
+                                {{item.titulo}}
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-info" routerLink="/producto/{{ item.cod }}">Cotizar</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-
+            </ng-container>
         </div>
-        <!-- /.row -->
-
     </div>

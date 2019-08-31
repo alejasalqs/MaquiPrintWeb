@@ -16,7 +16,7 @@ export class InfoPaginaServiceService {
     this.cargarInfoPagina();
   }
 
-  private cargarInfoCompania(){
+  private cargarInfoCompania() {
     this.http.get('https://maquidb.firebaseio.com/info-compania.json').subscribe((resp: InfoPaginaInterface) => {
       this.cargada = true;
       // guardamos la respuesta
@@ -25,7 +25,7 @@ export class InfoPaginaServiceService {
     });
   }
 
-  private cargarInfoPagina(){
+  private cargarInfoPagina() {
     this.http.get('https://maquidb.firebaseio.com/info-pagina.json').subscribe((resp: any) => {
       this.cargada = true;
       // guardamos la respuesta
