@@ -21,4 +21,9 @@ export class ItemsServiceService {
       });
   }
 
+
+  public getProducto( id: string ) {
+    return this.http.get(`https://maquidb.firebaseio.com/productos/${ id }.json`);
+  }
+
 }
