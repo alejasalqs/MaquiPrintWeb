@@ -8,6 +8,7 @@ import { ItemsInterface } from '../interfaces/Items.Interface';
 export class ItemsServiceService {
 
   Items: ItemsInterface[] = [];
+  cargando = true;
 
   constructor(private http: HttpClient) {
     this.cargarItems();
@@ -18,6 +19,7 @@ export class ItemsServiceService {
       .subscribe( (items: ItemsInterface[]) => {
         console.log(items);
         this.Items = items;
+        this.cargando = false;
       });
   }
 
