@@ -25,7 +25,7 @@
 }
 
 .onHover:hover {
-    color: #fed136;
+    color: aliceblue;
     text-decoration: none;
 }
 
@@ -90,7 +90,21 @@ header.masthead {
     margin-top: 0;
     margin-bottom: 15px;
   }
+
+  .page-section h2.section-heading-blue {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: aqua !important;
+  }
   
+  .page-section h2.section-heading-pink {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #FC6C85;
+  }
+
   .page-section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;

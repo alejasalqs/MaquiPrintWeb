@@ -17,15 +17,11 @@
                     <div class="col-md-6 col-lg-7 text-center text-md-right">
 
                         <!-- Facebook -->
-                        <a target="_blank" href="https://www.facebook.com/" class="fb-ic href-color onHover">
+                        <a target="_blank" href="{{ infoPaginaService.infoCompania.facebook }}" class="fb-ic href-color onHover">
                             <i class="fab fa-facebook-f white-text mr-4"> </i>
                         </a>
-                        <!--Linkedin -->
-                        <a target="_blank" href="https://www.linkedin.com/feed/" class="li-ic href-color onHover">
-                            <i class="fab fa-linkedin-in white-text mr-4"> </i>
-                        </a>
                         <!--Instagram-->
-                        <a target="_blank" href="https://www.instagram.com/" class="ins-ic href-color onHover">
+                        <a target="_blank" href="{{ infoPaginaService.infoCompania.instagram }}" class="ins-ic href-color onHover">
                             <i class="fab fa-instagram white-text"> </i>
                         </a>
 
@@ -48,7 +44,7 @@
                 <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
 
                     <!-- Content -->
-                    <h6 class="text-uppercase font-weight-bold">Company name</h6>
+                    <h6 class="text-uppercase font-weight-bold">Acerca de</h6>
                     <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>{{ infoPaginaService.infoCompania.compania }}</p>
 
@@ -62,10 +58,10 @@
                     <h6 class="text-uppercase font-weight-bold">Productos</h6>
                     <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <a class="href-color" href="#!">Bolsas</a>
+                        <a class="href-color onHover" >Bolsas</a>
                     </p>
                     <p>
-                        <a class="href-color" href="#!">Etiquetas</a>
+                        <a class="href-color onHover" >Etiquetas</a>
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -73,7 +69,7 @@
                 <!-- Grid column -->
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
-                    <!-- Links -->
+                    <!-- Links
                     <h6 class="text-uppercase font-weight-bold">Links útiles</h6>
                     <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
@@ -84,7 +80,7 @@
                     </p>
                     <p>
                         <a class="href-color" href="catalogo.html">Catálogo</a>
-                    </p>
+                    </p> -->
                 </div>
                 <!-- Grid column -->
 
@@ -114,7 +110,7 @@
 
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© {{ anio }} Copyright:
-            <a target="_blank" class="href-color" href="#"> Maquiprintjoab.com</a>
+            <a target="_blank" class="href-color onHover" href="#">{{ infoPaginaService.infoCompania.pagina }}</a>
         </div>
         <!-- Copyright -->
 

@@ -6,4 +6,7 @@ export interface InfoPaginaInterface {
     telefono?: string;
     url?: string;
     compania?: string;
+    facebook?: string;
+    instagram?: string;
+    pagina?: string;
 }
